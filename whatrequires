@@ -8,10 +8,12 @@ R-gtools
 R-hms
 R-lme4
 R-lmtest
-R-microbenchmark
 R-multcomp
 R-pbkrtest
 R-quantreg
+R-rmarkdown
 R-sandwich
+R-shiny
 R-tibble
 R-tis
+apache-spark
