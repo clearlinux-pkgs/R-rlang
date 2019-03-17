@@ -4,15 +4,13 @@
 #
 Name     : R-rlang
 Version  : 0.3.1
-Release  : 33
+Release  : 34
 URL      : https://cran.r-project.org/src/contrib/rlang_0.3.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rlang_0.3.1.tar.gz
 Summary  : Functions for Base Types and Core R and 'Tidyverse' Features
 Group    : Development/Tools
 License  : GPL-3.0
 Requires: R-rlang-lib = %{version}-%{release}
-Requires: R-cli
-Requires: R-withr
 BuildRequires : R-cli
 BuildRequires : R-withr
 BuildRequires : buildreq-R
@@ -37,10 +35,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1546970731
+export SOURCE_DATE_EPOCH=1552811843
 
 %install
-export SOURCE_DATE_EPOCH=1546970731
+export SOURCE_DATE_EPOCH=1552811843
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -76,8 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export _R_CHECK_FORCE_SUGGESTS_=false
-R CMD check --no-manual --no-examples --no-codoc -l %{buildroot}/usr/lib64/R/library rlang|| : 
-cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
+R CMD check --no-manual --no-examples --no-codoc  rlang || :
 
 
 %files
@@ -112,7 +109,111 @@ cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
 /usr/lib64/R/library/rlang/help/rlang.rdx
 /usr/lib64/R/library/rlang/html/00Index.html
 /usr/lib64/R/library/rlang/html/R.css
-/usr/lib64/R/library/rlang/libs/symbols.rds
+/usr/lib64/R/library/rlang/tests/testthat.R
+/usr/lib64/R/library/rlang/tests/testthat/fixtures/Makefile
+/usr/lib64/R/library/rlang/tests/testthat/fixtures/lib.zip
+/usr/lib64/R/library/rlang/tests/testthat/fixtures/rlanglibtest/DESCRIPTION
+/usr/lib64/R/library/rlang/tests/testthat/fixtures/rlanglibtest/NAMESPACE
+/usr/lib64/R/library/rlang/tests/testthat/fixtures/rlanglibtest/R/rlanglibtest.R
+/usr/lib64/R/library/rlang/tests/testthat/fixtures/rlanglibtest/src/Makevars
+/usr/lib64/R/library/rlang/tests/testthat/fixtures/rlanglibtest/src/init.c
+/usr/lib64/R/library/rlang/tests/testthat/fixtures/rlanglibtest/src/test-quo-accessors.c
+/usr/lib64/R/library/rlang/tests/testthat/fixtures/rlanglibtest/tests/testthat.R
+/usr/lib64/R/library/rlang/tests/testthat/fixtures/rlanglibtest/tests/testthat/test-quo-accessors.R
+/usr/lib64/R/library/rlang/tests/testthat/fixtures/trace-srcref.R
+/usr/lib64/R/library/rlang/tests/testthat/helper-c-api.R
+/usr/lib64/R/library/rlang/tests/testthat/helper-capture.R
+/usr/lib64/R/library/rlang/tests/testthat/helper-cli.R
+/usr/lib64/R/library/rlang/tests/testthat/helper-cnd.R
+/usr/lib64/R/library/rlang/tests/testthat/helper-locale.R
+/usr/lib64/R/library/rlang/tests/testthat/helper-print.R
+/usr/lib64/R/library/rlang/tests/testthat/helper-rlang.R
+/usr/lib64/R/library/rlang/tests/testthat/helper-stack.R
+/usr/lib64/R/library/rlang/tests/testthat/helper-trace.R
+/usr/lib64/R/library/rlang/tests/testthat/setup-tests.R
+/usr/lib64/R/library/rlang/tests/testthat/teardown-tests.R
+/usr/lib64/R/library/rlang/tests/testthat/test-arg.R
+/usr/lib64/R/library/rlang/tests/testthat/test-attr.R
+/usr/lib64/R/library/rlang/tests/testthat/test-c-api.R
+/usr/lib64/R/library/rlang/tests/testthat/test-call.R
+/usr/lib64/R/library/rlang/tests/testthat/test-cnd-error-parent-default.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-cnd-error-parent.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-cnd-error-print-base-parent.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-cnd-error-print-no-message.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-cnd-error-str.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-cnd-error.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-cnd.R
+/usr/lib64/R/library/rlang/tests/testthat/test-compat.R
+/usr/lib64/R/library/rlang/tests/testthat/test-deparse.R
+/usr/lib64/R/library/rlang/tests/testthat/test-dots.R
+/usr/lib64/R/library/rlang/tests/testthat/test-encoding.R
+/usr/lib64/R/library/rlang/tests/testthat/test-env-binding.R
+/usr/lib64/R/library/rlang/tests/testthat/test-env-special.R
+/usr/lib64/R/library/rlang/tests/testthat/test-env.R
+/usr/lib64/R/library/rlang/tests/testthat/test-eval-tidy.R
+/usr/lib64/R/library/rlang/tests/testthat/test-eval.R
+/usr/lib64/R/library/rlang/tests/testthat/test-events.R
+/usr/lib64/R/library/rlang/tests/testthat/test-exec.R
+/usr/lib64/R/library/rlang/tests/testthat/test-expr.R
+/usr/lib64/R/library/rlang/tests/testthat/test-fn.R
+/usr/lib64/R/library/rlang/tests/testthat/test-formula.R
+/usr/lib64/R/library/rlang/tests/testthat/test-lifecycle.R
+/usr/lib64/R/library/rlang/tests/testthat/test-node.R
+/usr/lib64/R/library/rlang/tests/testthat/test-on-error-message-options.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-operators.R
+/usr/lib64/R/library/rlang/tests/testthat/test-parse.R
+/usr/lib64/R/library/rlang/tests/testthat/test-quasiquotation.R
+/usr/lib64/R/library/rlang/tests/testthat/test-quo.R
+/usr/lib64/R/library/rlang/tests/testthat/test-quotation.R
+/usr/lib64/R/library/rlang/tests/testthat/test-retired.R
+/usr/lib64/R/library/rlang/tests/testthat/test-s3.R
+/usr/lib64/R/library/rlang/tests/testthat/test-sexp.R
+/usr/lib64/R/library/rlang/tests/testthat/test-stack.R
+/usr/lib64/R/library/rlang/tests/testthat/test-state.R
+/usr/lib64/R/library/rlang/tests/testthat/test-sym.R
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-backtrace-anonymous.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-backtrace-branch-first-frame.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-call-car-promise.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-children.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-eval.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-evalq.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr-before-after1.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr-before-after2.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr-before-after3.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr-children.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr-complete-leading1.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr-complete-leading2.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr-complete1.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr-complete2.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr-incomplete-leading1.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr-incomplete-leading2.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr-incomplete.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr2.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapse-magrittr3.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapsed1.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-collapsed2.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-dangling-srcref.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-degenerate-null.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-degenerate-scalar.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-degenerate-sym.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-global-prefix.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-non-collapsed-eval
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-print.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-recursive.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-summary.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-trim.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-truncate-backtrace-branch.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace-unexported-prefix.txt
+/usr/lib64/R/library/rlang/tests/testthat/test-trace.R
+/usr/lib64/R/library/rlang/tests/testthat/test-types.R
+/usr/lib64/R/library/rlang/tests/testthat/test-utils.R
+/usr/lib64/R/library/rlang/tests/testthat/test-vec-coerce.R
+/usr/lib64/R/library/rlang/tests/testthat/test-vec-new.R
+/usr/lib64/R/library/rlang/tests/testthat/test-vec-squash.R
+/usr/lib64/R/library/rlang/tests/testthat/test-vec-utils.R
+/usr/lib64/R/library/rlang/tests/testthat/test-vec.R
+/usr/lib64/R/library/rlang/tests/testthat/test-with-abort.txt
 
 %files lib
 %defattr(-,root,root,-)
