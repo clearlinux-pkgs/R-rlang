@@ -49,6 +49,7 @@ R-recipes
 R-reprex
 R-rgenoud
 R-rsample
+R-rstantools
 R-shiny
 R-styler
 R-testthat
