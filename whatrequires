@@ -23,6 +23,7 @@ R-fs
 R-furrr
 R-generics
 R-ggplot2
+R-haven
 R-hms
 R-htmltools
 R-ini
@@ -33,6 +34,7 @@ R-lifecycle
 R-measures
 R-modelr
 R-msm
+R-openxlsx
 R-packrat
 R-permute
 R-pillar
@@ -48,6 +50,7 @@ R-qtl
 R-recipes
 R-reprex
 R-rgenoud
+R-roxygen2
 R-rsample
 R-rstantools
 R-shiny
