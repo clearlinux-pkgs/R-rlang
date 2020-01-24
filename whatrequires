@@ -1,5 +1,5 @@
 # This file contains recursive sources that require this package
-R-DBI
+R-DBItest
 R-GGally
 R-RANN
 R-RcppProgress
@@ -33,15 +33,12 @@ R-lazyeval
 R-lifecycle
 R-measures
 R-modelr
-R-msm
-R-openxlsx
 R-packrat
 R-permute
 R-pillar
 R-pkgdown
 R-pkgload
 R-plotly
-R-plyr
 R-promises
 R-ps
 R-purrr
