@@ -2,11 +2,9 @@
 R-DBItest
 R-GGally
 R-RANN
-R-RcppProgress
 R-Rtsne
 R-bayesplot
 R-blob
-R-checkmate
 R-clisymbols
 R-clustMixType
 R-commonmark
@@ -40,10 +38,8 @@ R-pkgdown
 R-pkgload
 R-plotly
 R-promises
-R-ps
 R-purrr
 R-qap
-R-qtl
 R-recipes
 R-reprex
 R-rgenoud
@@ -58,7 +54,6 @@ R-tibble
 R-tidyr
 R-tidyselect
 R-tidyverse
-R-unix
 R-usethis
 R-vctrs
 R-viridisLite
