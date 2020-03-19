@@ -4,7 +4,7 @@
 #
 Name     : R-rlang
 Version  : 0.4.5
-Release  : 51
+Release  : 52
 URL      : https://cran.r-project.org/src/contrib/rlang_0.4.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rlang_0.4.5.tar.gz
 Summary  : Functions for Base Types and Core R and 'Tidyverse' Features
