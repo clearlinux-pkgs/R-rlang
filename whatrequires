@@ -6,7 +6,6 @@ R-Rtsne
 R-bayesplot
 R-blob
 R-clisymbols
-R-clustMixType
 R-commonmark
 R-config
 R-corrplot
@@ -17,7 +16,6 @@ R-dplyr
 R-dtplyr
 R-ellipsis
 R-forcats
-R-fs
 R-furrr
 R-generics
 R-ggplot2
@@ -57,5 +55,3 @@ R-tidyverse
 R-usethis
 R-vctrs
 R-viridisLite
-R-withr
-R-zeallot
