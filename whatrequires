@@ -1,16 +1,22 @@
 # This file contains recursive sources that require this package
 R-DBItest
+R-DiagrammeR
 R-GGally
 R-bayesplot
 R-bench
 R-blob
 R-broom
+R-bslib
+R-cachem
+R-conflicted
 R-cowplot
 R-dbplyr
 R-devtools
+R-downlit
 R-dplyr
 R-dtplyr
 R-ellipsis
+R-flexsurv
 R-forcats
 R-furrr
 R-ggplot2
@@ -19,9 +25,11 @@ R-haven
 R-hms
 R-htmltools
 R-janitor
+R-keras
 R-labelled
 R-later
 R-lifecycle
+R-memoise
 R-mice
 R-modelr
 R-mstate
@@ -36,6 +44,8 @@ R-recipes
 R-reprex
 R-roxygen2
 R-rsample
+R-rvest
+R-sass
 R-shiny
 R-slider
 R-styler
@@ -47,3 +57,5 @@ R-tidyselect
 R-tidyverse
 R-usethis
 R-vctrs
+R-vembedr
+R-waldo
