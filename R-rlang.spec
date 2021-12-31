@@ -4,7 +4,7 @@
 #
 Name     : R-rlang
 Version  : 0.4.12
-Release  : 69
+Release  : 70
 URL      : https://cran.r-project.org/src/contrib/rlang_0.4.12.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rlang_0.4.12.tar.gz
 Summary  : Functions for Base Types and Core R and 'Tidyverse' Features
