@@ -4,7 +4,7 @@
 #
 Name     : R-rlang
 Version  : 0.4.12
-Release  : 70
+Release  : 71
 URL      : https://cran.r-project.org/src/contrib/rlang_0.4.12.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rlang_0.4.12.tar.gz
 Summary  : Functions for Base Types and Core R and 'Tidyverse' Features
@@ -12,7 +12,6 @@ Group    : Development/Tools
 License  : BSD-2-Clause MIT
 Requires: R-rlang-lib = %{version}-%{release}
 Requires: R-winch
-BuildRequires : R-winch
 BuildRequires : buildreq-R
 
 %description
@@ -36,10 +35,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1634657157
+export SOURCE_DATE_EPOCH=1641097458
 
 %install
-export SOURCE_DATE_EPOCH=1634657157
+export SOURCE_DATE_EPOCH=1641097458
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
