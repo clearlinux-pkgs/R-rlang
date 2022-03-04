@@ -2,6 +2,7 @@
 R-DBItest
 R-DiagrammeR
 R-GGally
+R-RNeXML
 R-bayesplot
 R-bench
 R-blob
@@ -27,6 +28,7 @@ R-ggrepel
 R-ggvis
 R-googledrive
 R-googlesheets4
+R-hardhat
 R-haven
 R-hms
 R-htmltools
