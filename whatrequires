@@ -19,6 +19,7 @@ R-dplyr
 R-dtplyr
 R-ellipsis
 R-flexsurv
+R-flextable
 R-fontawesome
 R-forcats
 R-furrr
@@ -40,13 +41,16 @@ R-lifecycle
 R-lobstr
 R-memoise
 R-mice
+R-mockr
 R-modelr
 R-mstate
+R-pdp
 R-pillar
 R-pkgdown
 R-pkgload
 R-plotly
 R-posterior
+R-projpred
 R-promises
 R-purrr
 R-readr
@@ -56,6 +60,7 @@ R-roxygen2
 R-rsample
 R-rvest
 R-sass
+R-scales
 R-shiny
 R-slider
 R-styler
