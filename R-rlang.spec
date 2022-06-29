@@ -4,7 +4,7 @@
 #
 Name     : R-rlang
 Version  : 1.0.3
-Release  : 77
+Release  : 78
 URL      : https://cran.r-project.org/src/contrib/rlang_1.0.3.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rlang_1.0.3.tar.gz
 Summary  : Functions for Base Types and Core R and 'Tidyverse' Features
