@@ -33,6 +33,7 @@ R-hardhat
 R-haven
 R-hms
 R-htmltools
+R-igraph
 R-janitor
 R-keras
 R-labelled
