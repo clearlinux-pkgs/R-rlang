@@ -4,7 +4,7 @@
 #
 Name     : R-rlang
 Version  : 1.1.0
-Release  : 84
+Release  : 85
 URL      : https://cran.r-project.org/src/contrib/rlang_1.1.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/rlang_1.1.0.tar.gz
 Summary  : Functions for Base Types and Core R and 'Tidyverse' Features
@@ -14,9 +14,6 @@ Requires: R-rlang-lib = %{version}-%{release}
 Requires: R-rlang-license = %{version}-%{release}
 Requires: R-winch
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 like the condition system, and core 'Tidyverse' features like tidy
@@ -48,10 +45,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1678808115
+export SOURCE_DATE_EPOCH=1678836485
 
 %install
-export SOURCE_DATE_EPOCH=1678808115
+export SOURCE_DATE_EPOCH=1678836485
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/R-rlang
 cp %{_builddir}/rlang/LICENSE.note %{buildroot}/usr/share/package-licenses/R-rlang/4a2ee4ad4dd9dc2459b06f6b0c777a2063819b63 || :
