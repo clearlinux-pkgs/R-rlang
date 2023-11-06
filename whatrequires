@@ -55,6 +55,8 @@ R-mockr
 R-modeldata
 R-modelr
 R-mstate
+R-patchwork
+R-patrick
 R-pdp
 R-pillar
 R-pkgdown
@@ -68,9 +70,11 @@ R-questionr
 R-readr
 R-recipes
 R-reprex
+R-reticulate
 R-rotl
 R-roxygen2
 R-rsample
+R-rsconnect
 R-rvest
 R-sass
 R-scales
