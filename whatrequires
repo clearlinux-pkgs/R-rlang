@@ -5,15 +5,18 @@ R-DiagrammeR
 R-GGally
 R-MatchIt
 R-RNeXML
+R-RSQLite
 R-bayesplot
 R-bench
 R-blob
 R-brms
 R-broom
+R-broom.helpers
 R-bslib
 R-cachem
 R-chk
 R-clock
+R-clustMixType
 R-conflicted
 R-cowplot
 R-dbplyr
@@ -32,6 +35,7 @@ R-furrr
 R-gargle
 R-ggplot2
 R-ggrepel
+R-ggstats
 R-ggvis
 R-gh
 R-googledrive
@@ -94,3 +98,4 @@ R-vctrs
 R-vdiffr
 R-vroom
 R-waldo
+R-xml2
