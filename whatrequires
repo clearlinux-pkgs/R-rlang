@@ -34,12 +34,15 @@ R-forcats
 R-furrr
 R-gargle
 R-ggplot2
+R-ggpubr
 R-ggrepel
 R-ggstats
+R-ggtext
 R-ggvis
 R-gh
 R-googledrive
 R-googlesheets4
+R-gridtext
 R-gtable
 R-hardhat
 R-haven
@@ -79,6 +82,7 @@ R-rotl
 R-roxygen2
 R-rsample
 R-rsconnect
+R-rstatix
 R-rvest
 R-sass
 R-scales
@@ -86,6 +90,7 @@ R-shiny
 R-slider
 R-stringr
 R-styler
+R-survminer
 R-testthat
 R-tfruns
 R-themis
