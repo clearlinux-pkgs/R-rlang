@@ -14,6 +14,7 @@ R-broom
 R-broom.helpers
 R-bslib
 R-cachem
+R-cards
 R-chk
 R-clock
 R-clustMixType
@@ -23,10 +24,12 @@ R-dbplyr
 R-devtools
 R-dials
 R-distributional
+R-doBy
 R-downlit
 R-dplyr
 R-dtplyr
 R-ellipsis
+R-fitdistrplus
 R-flexsurv
 R-flextable
 R-fontawesome
@@ -57,7 +60,6 @@ R-later
 R-lifecycle
 R-lobstr
 R-memoise
-R-mice
 R-mockr
 R-modeldata
 R-modelr
@@ -86,6 +88,7 @@ R-rstatix
 R-rvest
 R-sass
 R-scales
+R-sfd
 R-shiny
 R-slider
 R-stringr
@@ -96,7 +99,9 @@ R-tfruns
 R-themis
 R-tibble
 R-tidyr
+R-tidyrules
 R-tidyselect
+R-tidytable
 R-tidyverse
 R-usethis
 R-vctrs
