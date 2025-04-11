@@ -82,6 +82,7 @@ R-reprex
 R-reticulate
 R-rotl
 R-roxygen2
+R-rredlist
 R-rsample
 R-rsconnect
 R-rstatix
@@ -91,9 +92,11 @@ R-scales
 R-sfd
 R-shiny
 R-slider
+R-sparsevctrs
 R-stringr
 R-styler
 R-survminer
+R-tclust
 R-testthat
 R-tfruns
 R-themis
@@ -108,4 +111,5 @@ R-vctrs
 R-vdiffr
 R-vroom
 R-waldo
+R-webmockr
 R-xml2
